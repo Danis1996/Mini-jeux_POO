@@ -71,10 +71,9 @@ end
 puts "**********************************"
 puts "*** La partie est finie ***"
 if humanplayer.life_points > 0
-    puts "---------------------------------
-|  "BRAVO VOUS AVEZ GAGNE"       |
-|Merci pour votre participation! |
-----------------------------------"
+    puts "BRAVO VOUS AVEZ GAGNE"
+    puts "Merci pour votre participation!"
+
 else
  puts "Loser ! Tu as perdu !"
 end
